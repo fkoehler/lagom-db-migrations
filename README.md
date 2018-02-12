@@ -1,7 +1,7 @@
 # Motivation
 
 We wanted to migrate our production database via an external migration tool and also manually create the keyspaces and
-tables for the Lagom Framework [https://www.lagomframework.com/]. For this one needs to know how the structure of the tables
+tables for the [Lagom Framework](https://www.lagomframework.com/). For this one needs to know how the structure of the tables
 are. Since there are multiple components in play this project wants to provide all full set of all migrations required
 for Lagom to work.
 
@@ -16,7 +16,7 @@ This project was started at Lagom version 1.4.0 so there are no prior migration 
 
 # How to use
 
-You probably want to have an external migration tool for C* like Pillar [https://github.com/Galeria-Kaufhof/pillar] to
+You probably want to have an external migration tool for C* like [Pillar](https://github.com/Galeria-Kaufhof/pillar) to
 execute your cql files with.
 
 You should copy the cql files to your project and manually review them. Not all modules might apply to your system or
