@@ -11,8 +11,8 @@ This project was started at Lagom version 1.4.0 so there are no prior migration 
 
 # File structure:
 
-- <lagom_version>-full.cql: Contains the complete dump for the version
-- <lagom_version>-from-<lagom_version>.cql: Completes only those steps required to upgrade the version
+- `<lagom_version>-full.cql`: Contains the complete dump for the version
+- `<lagom_version>-from-<lagom_version>.cql`: Completes only those steps required to upgrade the version
 
 # How to use
 
